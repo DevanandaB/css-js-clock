@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(40, 2, 86);
+    overflow: hidden;
+}
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clock-face {
+    width: 300px;
+    height: 300px;
+    border: 16px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.hand {
+    border: solid 2px black;
+    width: 50px;
+}
